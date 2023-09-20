@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>เเบบฟอร์มเเลกเปลี่ยนข้อมูล</title>
+</haed>
+
+<body>
+    <h1 align="center">เเบบฟอร์ม</h1>
+    <from name="resume" method="post" action="">
+        <fieldset>
+            <legend>
+                <font color="blue">ข้อมูลการศึกษา</font>
+            </legend>
+             คำนำหน้าชื่อ : 
+            <input type="radio" name="prename" value="1"> นาย
+            <input type="radio" name="prename" value="2"> นางสาว
+            <input type="radio" name="prename" value="3"> นาง
+            </select><br /> 
+            ชื่อ  :
+               <input type="text" size="20">  <br>
+            นามสกุล  :
+               <input type="text" size="20">  <br>
+            เลขที่บัตรประชาชน  :
+               <input type="text" size="13">  <br>
+            ศาสนา:<select name="region">
+                <option value="reg0">เลือก</option>
+                <option value="reg1">พุทธ</option>
+                <option value="reg2">คริสต์</option>
+                <option value="reg3">อิสลาม</option>
+                <option value="reg4">อื่นๆ</option>
+                </select>
+        <br>วัน/เดือน/ปีเกิด<input type="date" name="brithday">
+        <br>สถานภาพ :
+        <input type="radio" name="sts" value="1"> โสด
+        <input type="radio" name="sts" value="2"> สมรส
+        <input type="radio" name="sts" value="3"> หย่าร้าง
+        </fieldset><br>
+
+    <from name="resume" method="post" action="">
+        <fieldset>
+            <legend>
+                <font color="blue">ที่อยู่ปัจุบัน</font>
+            </legend>
+            บ้านเลขที่  :
+               <input type="text" size="10">
+            หมู่ที่  :
+               <input type="text" size="5"> 
+            อาคาร  :
+               <input type="text" size="13">  
+            หมู่บ้าน  :
+               <input type="text" size="13">  <br>
+               ถนน  :
+               <input type="text" size="20">  
+               เเขวง/ตำบล  :
+               <input type="text" size="20">
+               เขต/อำเภอ  :
+               <input type="text" size="15">  <br>
+               จังหวัด  :
+               <input type="text" size="15"> 
+               รหัสไปรษณีย์  :
+               <input type="text" size="5">  <br>
+               โทรศัพท์  :
+               <input type="text" size="10">  <br>
+            </fieldset><br>
+
+
+    <from name="resume" method="post" action="">
+        <fieldset>
+            <legend>
+                <font color="blue">ความรู้ด้านภาษาต่างประเทศ</font>
+            </legend>
+            <form action="">
+                <input type="checkbox" name="LNG" value="EN"> อังกฤษ 
+                <input type="checkbox" name="LNG" value="EU"> ฝรั่งเศษ 
+                <input type="checkbox" name="LNG" value="CH"> จีน 
+                <input type="checkbox" name="LNG" value="JA"> ญี่ปุ่น 
+            </fieldset><br>
+
+            รูปผู้สมัคร(JPG ขนาดไม่เกิน 100 KB): 
+            <input type="submit" value="Choose File">
+            No File Choose <br>
+            
+            <p>
+        <input type="radio">  <font color="Red" align="center ">
+                     โดยใบสมัครนี้ข้าพเจ้าขอรับรองว่า ข้อมูลที่กรอกเป็นความจริงทุกประการ หากมีการกล่าวเท็จ ในใบสมัครนี้ จะเป็นสาเหตุอันเพียวพอที่จะปลดข้าพเจ้าลาออกจากงานได้<br></p>
+                   <center> <input align="center" type="submit" value="ส่งใบสมัคร">
+                    <input align="center" type="submit" value="ล้างข้อมูล"> </center>
+</body>
+</html>
+
